@@ -1,4 +1,4 @@
-"use strict"
+"use strict";
 
 let NumberofFilms;
 
@@ -59,7 +59,7 @@ function detectPersonalLevel(){
 // teacher solution
 function showMyDB (hidden) {
     if (!hidden) {
-        console.log(personalMovieDB)
+        console.log(personalMovieDB);
     }
 }
 
@@ -135,7 +135,8 @@ showMyDB(personalMovieDB.privat);
 // // the same as slice , but negative values can not be used
 
 // console.log(logg.substr(6,5));
-// //  the main difference from the SUBSTRING command is that second argemnt shows the NUMNER OF SYMBOLS in desaired substring
+// the main difference from the SUBSTRING command is that second argemnt 
+// shows the NUMNER OF SYMBOLS in desaired substring
 
 
 // const num=12.2;
