@@ -61,8 +61,6 @@ function showMyDB (hidden) {
     if (!hidden) {
         console.log(personalMovieDB);
     }
-}
-
 
 
 // my solution
