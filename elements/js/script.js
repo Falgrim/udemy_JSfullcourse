@@ -3,10 +3,10 @@
 const   box = document.getElementById('box'),
         btns = document.getElementsByTagName('button'),
         circles = document.getElementsByClassName('circle'),
-        wrapper = document.querySelector('.wrapper'),
-        hearts = wrapper.querySelectorAll('.heart'),  //внимание т.к. обращение напрямую к селекторам,  ставим точку как в CSS  ,  ниже тоже самое
+        wrapper = document.querySelector('.wrapper'),  //внимание т.к. обращение напрямую к селекторам,  ставим точку как в CSS
+        hearts = wrapper.querySelectorAll('.heart'),  //внимание т.к. обращение напрямую к селекторам,  ставим точку как в CSS 
         oneHeart = wrapper.querySelector('.heart');
-        
+     
 
 
 console.dir(box);
